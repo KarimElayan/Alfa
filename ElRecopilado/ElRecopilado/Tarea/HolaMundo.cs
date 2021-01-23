@@ -10,7 +10,6 @@ namespace ElRecopilado.Tarea
         {
             Console.WriteLine("Karim Rodrigo");
             Console.WriteLine("matricula");
-            Console.WriteLine("karin.elayan");
         }
     }
 }
