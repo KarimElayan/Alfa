@@ -17,5 +17,9 @@ namespace ElRecopilado.Tarea
         {
 
         }
+        public void DoSomethingElse()
+        {
+
+        }
     }
 }
