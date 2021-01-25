@@ -21,5 +21,9 @@ namespace ElRecopilado.Tarea
         {
 
         }
+        public void DoSomethingElseAgain()
+        {
+
+        }
     }
 }
