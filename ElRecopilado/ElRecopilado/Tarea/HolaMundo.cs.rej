@@ -1,0 +1,12 @@
+diff a/ElRecopilado/ElRecopilado/Tarea/HolaMundo.cs b/ElRecopilado/ElRecopilado/Tarea/HolaMundo.cs	(rejected hunks)
+@@ -8,8 +8,8 @@
+     {
+         public void HacerMagia()
+         {
+-            Console.WriteLine("Maria Isabel");
+-            Console.WriteLine("CUH5119");
++            Console.WriteLine("Maria Isabel Fragoso Garcia");
++            Console.WriteLine("CUH51197169");
+             
+         }
+     }

@@ -10,7 +10,9 @@ namespace ElRecopilado.Tarea
         {
             Console.WriteLine("Maria Isabel Fragoso Garcia");
             Console.WriteLine("CUH51197169");
-            
+            Console.WriteLine("cuh51197169@cuh.mx");
+
+
         }
     }
 }
