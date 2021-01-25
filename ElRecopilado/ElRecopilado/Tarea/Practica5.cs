@@ -21,7 +21,7 @@ namespace ElRecopilado.Tarea
                 int[,] matriz = new int[fila, columna];
                 Random NumeroAleatorio = new Random();
                 Console.WriteLine();
-                Console.WriteLine("SU MATRIZ ES DE: " + fila + " x " + fila);
+                Console.WriteLine("SU MATRIZ ES DE: " + fila + "x" + fila);
                 Console.WriteLine();
 
                 for (ContarFila = 0; ContarFila < fila; ContarFila++)
