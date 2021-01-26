@@ -8,9 +8,9 @@ namespace ElRecopilado.Tarea
     {
         public void HacerMagia()
         {
-            Console.WriteLine("Karim Rodrigo");
-            Console.WriteLine("matricula");
-            Console.WriteLine("karin.elayan");
+            Console.WriteLine("Magaly Monserrath Francisco Albino");
+            Console.WriteLine("matricula: CUH51197235");
+            Console.WriteLine("Correo: cuh51197235@cuh.mx");
         }
     }
 }
