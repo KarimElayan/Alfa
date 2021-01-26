@@ -1,4 +1,5 @@
 ﻿using ElRecopilado.Tarea;
+
 using System;
 
 namespace ElRecopilado
@@ -7,6 +8,13 @@ namespace ElRecopilado
     {
         static void Main(string[] args)
         {
+            Practica5 ImprimirPractica5 = new Practica5();
+            ImprimirPractica5.Practica5Imprimir();
+            Practica6 ImprimirPractica6 = new Practica6();
+            ImprimirPractica6.Practica6Imprimir();
+
+
+
             Console.WriteLine("Elije opcion:");
             Console.WriteLine("1 Hola Mundo");
             String texto;
@@ -23,6 +31,7 @@ namespace ElRecopilado
                     Console.WriteLine("Adios");
                     break;
             }
+
 
 
         }
