@@ -11,7 +11,8 @@ namespace ElRecopilado.EnClase
         public bool hasPunta;
         public string ToString()
         {
-            return "[color: "+ color +"grosor: " + grosor + "hasPunta" + hasPunta+ "]";
+            return $"[color: {color} grosor: {grosor} hasPunta: {hasPunta}]";
+            //return "[color: "+ color +"grosor: " + grosor + "hasPunta" + hasPunta+ "]";
         }
     }
 }
