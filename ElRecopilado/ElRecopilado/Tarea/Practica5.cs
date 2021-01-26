@@ -8,7 +8,7 @@ namespace ElRecopilado.Tarea
     {
         public void GenerarMatriz(int fila)
         {
-            int columna, ContarFila, ContarColumna, longitud;
+            int columna, ContarFila, ContarColumna;
             Console.Write("INGRESE EL TAMAÑO DE SU MATRIZ CUADRADA: ");
             fila = int.Parse(Console.ReadLine());
                 columna = fila;
