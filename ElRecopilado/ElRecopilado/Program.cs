@@ -26,6 +26,7 @@ namespace ElRecopilado
                     HolaMundo holaMundoObj = new HolaMundo();
                     holaMundoObj.HacerMagia();
                     break;
+
                 default:
                     Console.WriteLine("Opcion invalida");
                     Console.WriteLine("Adios");
@@ -34,11 +35,10 @@ namespace ElRecopilado
         }
         private static void MenuClase()
         {
-            int opc = 2;
-            String texto = "Prueba de colores";
+            int opc = 3;
+            //String texto = "Prueba de colores";
+            String texto = "Sopa de letras";
             Console.WriteLine($"Se ejecuta la opc: {opc}) {texto}");
-            
-            texto = Console.ReadLine();
 
             switch (opc)
             {
@@ -49,6 +49,10 @@ namespace ElRecopilado
                 case 2:
                     UsarColores usarColores = new UsarColores();
                     usarColores.HacerMagia();
+                    break;
+                case 3:
+                    SopaDeLetras sopa = new SopaDeLetras();
+                    sopa.HacerMagia();
                     break;
                 default:
                     Console.WriteLine("Opcion invalida");

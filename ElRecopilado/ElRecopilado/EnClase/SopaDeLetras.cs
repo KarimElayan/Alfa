@@ -4,7 +4,7 @@ namespace ElRecopilado.EnClase
 {
     internal class SopaDeLetras
     {
-        public void Execute()
+        public void HacerMagia()
         {
             Console.WriteLine("ARREGLOS");
 
