@@ -14,30 +14,13 @@ namespace ElRecopilado
 
         }
         private static void MenuTarea()
-        {
-            Console.WriteLine("Elije opcion:");
-            Console.WriteLine("1 Hola Mundo");
-            String texto;
-            texto = Console.ReadLine();
-
-            switch (texto)
-            {
-                case "1":
-                    HolaMundo holaMundoObj = new HolaMundo();
-                    holaMundoObj.HacerMagia();
-                    break;
-
-                default:
-                    Console.WriteLine("Opcion invalida");
-                    Console.WriteLine("Adios");
-                    break;
-            }
+        {           
         }
         private static void MenuClase()
         {
-            int opc = 3;
+            int opc = 4;
             //String texto = "Prueba de colores";
-            String texto = "Sopa de letras";
+            String texto = "Listas de Dinos";
             Console.WriteLine($"Se ejecuta la opc: {opc}) {texto}");
 
             switch (opc)
@@ -53,6 +36,14 @@ namespace ElRecopilado
                 case 3:
                     SopaDeLetras sopa = new SopaDeLetras();
                     sopa.HacerMagia();
+                    break;
+                case 4:
+                    Listas lista = new Listas();
+                    lista.HacerMagia();
+                    Cola cola = new Cola();
+                    cola.HacerMagia();
+                    Pila pila = new Pila();
+                    pila.HacerMagia();
                     break;
                 default:
                     Console.WriteLine("Opcion invalida");
