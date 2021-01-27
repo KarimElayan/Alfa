@@ -414,7 +414,7 @@ namespace ElRecopilado.EnClase
             return (letra == "A" || letra == "E" || letra == "I" || letra == "O" || letra == "U");
         }
 
-        private void printArreglos(string[,] arr)
+        public void printArreglos(string[,] arr)
         {
             string cadena = "[\r\n";
 
