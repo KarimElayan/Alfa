@@ -8,7 +8,7 @@ namespace ElRecopilado.Tarea
     {
         public void HacerMagia()
         {
-            Console.WriteLine("Consuelo Yerio Hernandez Martinez");
+            Console.WriteLine("Consuelo Yeriot Hernandez Martinez");
             Console.WriteLine("CUH51187040");
         }
     }
