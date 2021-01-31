@@ -1,8 +1,10 @@
+
 <<<<<<< HEAD
-﻿using ElRecopilado.Tarea;
+using ElRecopilado.Tarea;
 
 =======
 ﻿using ElRecopilado.EnClase;
+using ElRecopilado.EnClase.Tareas;
 using ElRecopilado.Tarea;
 >>>>>>> origin/main
 using System;
@@ -33,13 +35,14 @@ namespace ElRecopilado
 
         }
         private static void MenuTarea()
-        {           
+        {
         }
         private static void MenuClase()
         {
-            int opc = 4;
+
+            int opc = 7;
             //String texto = "Prueba de colores";
-            String texto = "Listas de Dinos";
+            String texto = "Static vs Not Static";
             Console.WriteLine($"Se ejecuta la opc: {opc}) {texto}");
 
             switch (opc)
@@ -64,17 +67,37 @@ namespace ElRecopilado
                     Pila pila = new Pila();
                     pila.HacerMagia();
                     break;
+                case 5:
+                    Practica5 prac5 = new Practica5();
+                    prac5.HacerMagia();
+                    break;
+                case 6:
+                    Practica6 prac6 = new Practica6();
+                    prac6.HacerMagia();
+                    break;
+                case 7:
+                    int[] xxx = new int[] { 9, 8, 5, 4, 8, 7, 4, 1, 2, 3, 6 };
+                    Console.WriteLine("NOT Static\r\n");
+                    UtilNotStatic utilNotStaticObj = new UtilNotStatic();
+                    utilNotStaticObj.ImprimirArreglo(xxx);
+                    Console.WriteLine("Static\r\n");
+                    Util.ImprimirArreglo(xxx);
+                    break;
                 default:
                     Console.WriteLine("Opcion invalida");
                     Console.WriteLine("Adios");
                     break;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 =======
 >>>>>>> origin/main
+=======
+            
+>>>>>>> origin/Elayan_Karim
         }
     }
 }
