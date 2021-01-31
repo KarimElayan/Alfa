@@ -84,38 +84,7 @@ namespace PRACTICA_8
 
             //Lista de contactos completa
         }
-    }
-
-
-
-
-
-
-
-
-
-
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-
+        { }
 
 
 
