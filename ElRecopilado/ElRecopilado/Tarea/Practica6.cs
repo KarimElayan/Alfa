@@ -4,12 +4,11 @@ using System.Text;
 
 namespace ElRecopilado.Tarea
 {
-    class Practica6
+    class Practica6 : Practica5
     {
-        public void MatrizPractica5()
+        public void SumaDiagonales()
         {
-            Practica5 practica5 = new Practica5();
-            practica5.GenerarMatriz(0);
+            GenerarMatriz(0);
         }
     }
 }
