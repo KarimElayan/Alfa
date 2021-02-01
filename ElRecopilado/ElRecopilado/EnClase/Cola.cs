@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ElRecopilado.EnClase
 {
@@ -21,9 +19,9 @@ namespace ElRecopilado.EnClase
             Console.WriteLine("REMOVER el primer elemento de la cola: {0}", my_queue.Dequeue());
 
 
-            Console.WriteLine("Total de elements en my_queue: {0}",my_queue.Count);
+            Console.WriteLine("Total de elements en my_queue: {0}", my_queue.Count);
 
-            Console.WriteLine("VER el primer elemento de la cola: {0}",my_queue.Peek());
+            Console.WriteLine("VER el primer elemento de la cola: {0}", my_queue.Peek());
 
             Console.WriteLine("Total de elements en my_queue: {0}", my_queue.Count);
         }

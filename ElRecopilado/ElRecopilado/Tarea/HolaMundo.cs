@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ElRecopilado.Tarea
 {
@@ -9,7 +7,7 @@ namespace ElRecopilado.Tarea
         public void HacerMagia()
         {
             Console.WriteLine("djorkaeff xammar");
-            
+
         }
     }
 }

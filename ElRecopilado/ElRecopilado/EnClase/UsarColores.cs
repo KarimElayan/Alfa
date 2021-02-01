@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ElRecopilado.EnClase
 {
@@ -13,8 +11,9 @@ namespace ElRecopilado.EnClase
             color1.grosor = 0.5f;
             color1.hasPunta = true;
 
-            Colores color2 = new Colores() { 
-                color = 2, 
+            Colores color2 = new Colores()
+            {
+                color = 2,
                 grosor = 1,
                 hasPunta = true
             };

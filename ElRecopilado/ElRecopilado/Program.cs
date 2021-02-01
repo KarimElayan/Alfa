@@ -14,14 +14,16 @@ namespace ElRecopilado
 
         }
         private static void MenuTarea()
-        {           
+        {
+
         }
         private static void MenuClase()
         {
-            int opc = 4;
+            int opc ;
+           
             //String texto = "Prueba de colores";
             String texto = "Listas de Dinos";
-            Console.WriteLine($"Se ejecuta la opc: {opc}) {texto}");
+            opc = int.Parse(Console.ReadLine());
 
             switch (opc)
             {
@@ -45,6 +47,22 @@ namespace ElRecopilado
                     Pila pila = new Pila();
                     pila.HacerMagia();
                     break;
+                case 5:
+                    EXAMEN.Examen.IndexOfCapitals("");
+
+                    break;
+                case 6:
+                    EXAMEN.Examen.PrimeSerieAlfa(0);
+                    break;
+                case 7:
+                    EXAMEN.Examen.LetrasPorNumeros(" ");
+                    break;
+                case 8:
+                    EXAMEN.Examen.Cifrar("",0);
+                    break;
+                
+
+
                 default:
                     Console.WriteLine("Opcion invalida");
                     Console.WriteLine("Adios");
