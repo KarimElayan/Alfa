@@ -82,22 +82,23 @@ namespace ElRecopilado.Examen
             return "";
         }
 
-    }
-    public static string Descifrar(string str, int desp)
-    {
-        int b, j;
-        Console.WriteLine("Introduce la clave");
-        str = Console.ReadLine();
-        j = str.Length;
-        char[] ch = new char[j];
-        Console.WriteLine("el cifrado es:");
-        for (int i = 0; i < j; i++)
+
+        public static string Descifrar(string str, int desp)
         {
-            b = (int)str[i];
-            ch[i] = (char)(b - 3);
-            Console.WriteLine(ch[i]);
+            int b, j;
+            Console.WriteLine("Introduce la clave");
+            str = Console.ReadLine();
+            j = str.Length;
+            char[] ch = new char[j];
+            Console.WriteLine("el cifrado es:");
+            for (int i = 0; i < j; i++)
+            {
+                b = (int)str[i];
+                ch[i] = (char)(b - 3);
+                Console.WriteLine(ch[i]);
+            }
+            Console.ReadLine();
+            return "";
         }
-        Console.ReadLine();
-        return "";
     }
 }
