@@ -42,7 +42,7 @@ namespace ElRecopilado
                 case 4:
                     Listas lista = new Listas();
                     lista.HacerMagia();
-                    Cola cola = new Cola();
+                    Cola cola = new Cola();---------
                     cola.HacerMagia();
                     Pila pila = new Pila();
                     pila.HacerMagia();
