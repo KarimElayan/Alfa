@@ -8,9 +8,10 @@ namespace ElRecopilado
     {
         static void Main(string[] args)
         {
-            MenuClase();
+            //MenuClase();
             //MenuTarea();
-
+            TryCatchClase x = new TryCatchClase();
+            x.HacerMagia();
 
         }
         private static void MenuTarea()
