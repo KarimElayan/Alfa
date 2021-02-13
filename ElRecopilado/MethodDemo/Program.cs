@@ -6,11 +6,13 @@ namespace MethodDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //int x = 5;
-            int x = ObtenerNumeroRandomEntre0y100();
+            
+            
+           Console.WriteLine("Hello World!");
+            //int x = 5;    
+           int x = ObtenerNumeroRandomEntre0y100();
 
-            Console.WriteLine($"<<<<<<<<{x}: {EsPar(x)}>>>>>>>>>");
+           Console.WriteLine($"<<<<<<<<{x}: {EsPar(x)}>>>>>>>>>");
 
         }
 
@@ -24,4 +26,5 @@ namespace MethodDemo
             return (x % 2 == 0);// ? $"ES UN PAR" : $"NO ES UN PAR";
         }
     }
+    
 }
