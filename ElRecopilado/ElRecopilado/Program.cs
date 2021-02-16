@@ -10,28 +10,28 @@ namespace ElRecopilado
     {
         static void Main(string[] args)
         {
+            
+            int[,] Array = new int[2,5];
+            Array[0,0] = 2;
+            Array[0,1] = 7;
+            Array[0,2] = 7;
+            Array[0,3] = 2;
+            Array[0,4] = 3;
+            Array[1, 0] = 2;
+            Array[1, 1] = 7;
+            Array[1, 2] = 7;
+            Array[1, 3] = 2;
+            Array[1, 4] = 3;
 
-
-            Examen prueba = new  Examen();
-            int[] c = new int[200];
-            c[0] = 7;
-            c[1] = 7;
-            c[2] = 8;
-            c[3] =100;
-            c[4] = 20;
-            c[5] = 70;
-            c[6] = 75;
-            c[7] = 75;
-            c[8] = 8;
-            c[10] = 5;
-
-          int[] cf= prueba.Ejercicio6(c);
-            foreach (int c4 in cf)
+            Ejercicio7Examen prueba = new Ejercicio7Examen();
+            prueba.Extra(Array);
+           foreach (int c in Array)
             {
-                Console.WriteLine(c4);
+                Console.WriteLine(c);
             }
-          //  KarimGen obj = new KarimGen();    Yo comente
-         //   obj.HacerMagiaConChar();          Yo comente
+            
+            //KarimGen obj = new KarimGen();    yo comente
+            //obj.HacerMagiaConChar();          yo comente
           
         }
         

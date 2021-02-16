@@ -6,6 +6,18 @@ namespace ElRecopilado.ExtraTest.Francisco
 {
     class Ejercicio5Examen
     {
+        //INICIO
+        //Paso 1: Obtencion de datos --->      "PALABRA O FRASE"
+        
+        //Paso 3: Recorrer cada elemento de la palabra o frase 
+                  //Si se encuentra un caracter bacio eliminarlo 
+                  //Almacenar los caracteres (CaracteresAlmacenados)
+        //Paso 4: Recorrer de forma inverza los caracteres (CaracteresAlmacenados)
+                  //Guardar los caracteres(CaracteresInversos)
+        //Paso 5: Si (CaracteresAlmacenados) es igual a (CaracteresInversos)
+                   //RETORNAR VERDADERO
+        //Paso 6: Si no se cumple lo anterior RETORNAR FALSO
+        //FIN
         public bool Ejercicio5(string CadenaDeCaracteres)
         {
             string CadenaNormal = "";

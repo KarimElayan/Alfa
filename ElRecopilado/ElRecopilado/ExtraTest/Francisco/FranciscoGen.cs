@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ElRecopilado.ExtraTest.Francisco
 {
-    class Examen
+    class FranciscoGen
     {
         public bool Ejercicio1(int[] x)
         {
@@ -36,10 +36,7 @@ namespace ElRecopilado.ExtraTest.Francisco
             Ejercicio6Examen v = new Ejercicio6Examen();
            return v.Ejercicio6(x);
         }
-        public void Ejercicio7()
-        {
-
-        }
+       
 
     }
 }

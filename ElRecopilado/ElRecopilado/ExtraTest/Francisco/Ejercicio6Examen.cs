@@ -6,6 +6,30 @@ namespace ElRecopilado.ExtraTest.Francisco
 {
     class Ejercicio6Examen
     {
+        //INICIO
+        //Paso 1: Obtener los valores (ARREGLO)
+        //Paso 2: Recorrer cada elemento del arreglo ---->  1-2-3-4-5-6-7
+              //Guardar el elemento obtenido (ValorObtenido)
+                //Si (ValorObtenido) es mayor que (ValorObtenido mas una posicion)
+                   //DEAYUDA=ValorObtenido
+                   // ValorObtenido = ValorObtenido mas una posicion  ----> Hacer el cambio en la posicio del arreglo
+                   //ValorObtenido mas una posicion = DEAYUDA  ----> Hacer el cambio en la posicio del arreglo
+        //Guardar el ultimo valor del arreglo (ULTIMOVALOR)
+        //Paso 3: Recorrer cada elemento del arreglo ya actualizado ---->  1-2-3-4-5-6-7
+              //Guardar el elemento obtenido (ValorObtenido)
+                //Si (ValorObtenido) es mayor que (ValorObtenido mas una posicion)
+                   //DEAYUDA=ValorObtenido
+                   // ValorObtenido = ValorObtenido mas una posicion  ----> Hacer el cambio en la posicio del arreglo
+                   //ValorObtenido mas una posicion = DEAYUDA  ----> Hacer el cambio en la posicio del arreglo
+        //Guardar el penultimo valor del arreglo (PENULTIMOVALOR)
+        //Paso 4: Recorrer cada elemento del arreglo ya actualizado de forma inverza
+              //Si el (valor recorrido) es menor al (ValorRecorrido - 1)
+              // DEAYUDA= (valor recorrido) 
+              // (valor recorrido) = (ValorRecorrido - 1)   ----> Hacer el cambio en la posicio del arreglo
+              // (ValorRecorrido - 1)  = DEAYUDA ----> Hacer el cambio en la posicio del arreglo
+        //Guardar el antepenultimo valor del arreglo (ANTEPENULTIMO)
+        //Paso 5: Retornar : (ULTIMOVALOR),(PENULTIMOVALOR),(ANTEPENULTIMO)
+
         public int[] Ejercicio6(int[] ArregloRecibido)
         {
             int[] ContenedorDeValores = new int[3];
