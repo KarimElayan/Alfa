@@ -57,7 +57,7 @@ namespace ElRecopilado.ExtraTest.Consuelo
                     {
                         Console.Write(" ");
                     }
-                    for (int a = 0; a < (i*2)-1; a++)
+                    for (int a = 0; a < (i * 2) - 1; a++)
                     {
                         Console.Write("*");
                     }
@@ -103,7 +103,7 @@ namespace ElRecopilado.ExtraTest.Consuelo
                 return Convert.ToSingle(resta);
             }
         }
-       public Boolean Ejercicio5(String cadena)
+        public Boolean Ejercicio5(String cadena)
         {
             bool retorno = false;
             int contador;
@@ -129,3 +129,4 @@ namespace ElRecopilado.ExtraTest.Consuelo
 
     }
 }
+
