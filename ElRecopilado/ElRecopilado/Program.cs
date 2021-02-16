@@ -1,5 +1,5 @@
 ﻿using ElRecopilado.EnClase;
-using ElRecopilado.ExtraTest.Karim;
+using ElRecopilado.ExtraTest.Guadalupe;
 using ElRecopilado.Tarea;
 using System;
 
@@ -9,8 +9,9 @@ namespace ElRecopilado
     {
         static void Main(string[] args)
         {
-            KarimGen obj = new KarimGen();
-            obj.HacerMagiaConChar();
+           // int[] arreglo = new int[] { 23, 3, 43, 56, 12, 3 };
+            Examen obj = new Examen();
+            obj.Ejercicio2 (3);
         }
         
     }
