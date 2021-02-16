@@ -11,7 +11,7 @@ namespace ElRecopilado
         static void Main(string[] args)
         {
             Examen obj = new Examen();
-            obj.Ejercicio5("ana");
+            obj.Ejercicio5("oso");
         }
         
     }

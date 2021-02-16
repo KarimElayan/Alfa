@@ -9,7 +9,6 @@ namespace ElRecopilado.ExtraTest.Consuelo
             bool respuesta = false;
             bool resuelto = false;
             int estado = 0;
-
             foreach (int item in arreglo)
             {
                 if (item != 7)
